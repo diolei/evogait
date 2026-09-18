@@ -4,8 +4,6 @@ QWOP-inspired 2D biped + CPU-only evolution training.
 
 ![Evolved 12-body QWOP run](media/walk.gif)
 
-*Feedback-policy run: ~12.9 m over 45 s with alternating lead legs, rear knee off the track. Rendered from the live sim — no keyframes.*
-
 Standalone engine: deterministic 2D sim (`sim-core`), native trainer (`train`), browser playback via `wasm`. Exports versioned gait JSON (see `spec/FORMAT.md`) for any renderer to consume.
 
 ## Layout
