@@ -1,0 +1,11 @@
+[package]
+name = "evogait-train"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "evogait-train"
+path = "src/main.rs"
+
+[dependencies]
+evogait-sim-core = { path = "../sim-core" }

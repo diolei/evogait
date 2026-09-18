@@ -1,0 +1,3 @@
+[workspace]
+members = ["sim-core", "train", "wasm"]
+resolver = "2"

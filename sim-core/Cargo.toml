@@ -1,0 +1,8 @@
+[package]
+name = "evogait-sim-core"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "evogait_sim_core"
+path = "src/lib.rs"
